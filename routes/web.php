@@ -32,4 +32,8 @@ Route::get('adminlte', function(){
     return view('adminlte');
 });
 
+Route::get('/vue', function() {
+    return view('vue');
+});
+
 require __DIR__.'/auth.php';
