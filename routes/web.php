@@ -36,4 +36,8 @@ Route::get('/vue', function() {
     return view('vue');
 });
 
+Route::get('exe', function() {
+    return view("exe");
+  });
+
 require __DIR__.'/auth.php';
